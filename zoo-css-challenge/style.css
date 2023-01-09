@@ -188,9 +188,6 @@ footer {
 
 /*Programs*/
 
-.programs .card {
-  display: block;
-}
 
 #logo {
 border-style: none;
@@ -251,4 +248,22 @@ body {
 #badge:hover {
   background-color:grey;
   color:#ffffff;
+}
+
+
+.programs .card {
+  display: inline-flex;
+  background-color:cadetblue;
+}
+
+.programs > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+#find-out-more {
+  bottom: 1px;
+  right: 2px;
 }
